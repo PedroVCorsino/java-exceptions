@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "application.App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "8787"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch TokenAcessoClientImpl",
+            "request": "launch",
+            "mainClass": "br.com.metasix.auth.cli.httpcomponents.TokenAcessoClientImpl",
+            "projectName": "cube-cli"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "br.com.metasix.pesquisasatisfacao.cli.App",
+            "projectName": "cube-cli"
+        }
+    ]
+}
